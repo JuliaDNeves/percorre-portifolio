@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julia Neves — Portfólio</title>
+  <meta name="description" content="Portfólio de Julia Neves, Jovem Aprendiz Administrativo.">
+  <meta name="theme-color" content="#FEFEFA">
+  <!-- Marca que o JavaScript está ativo (as animações de entrada dependem disso) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ============ CABEÇALHO / MENU ============ -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Julia Neves — início">
+        <span class="brand-mark">J</span><span class="brand-name">Julia Neves</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#introducao">Sobre</a>
+        <a href="#video">Vídeo</a>
+        <a href="#audio">Áudio</a>
+        <a href="#imagem">Imagem</a>
+        <a href="#infografico">Infográfico</a>
+        <a href="#animacao">Animação</a>
+        <a href="#musica">Música</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <span class="blob b1" data-depth="18" aria-hidden="true"></span>
+      <span class="blob b2" data-depth="-26" aria-hidden="true"></span>
+      <span class="blob b3" data-depth="12" aria-hidden="true"></span>
+
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow reveal">Portfólio pessoal</p>
+          <h1 id="hero-title" class="reveal" style="--d:.08s">
+            Olá, eu sou<br><span class="hl">Julia Neves</span>
+          </h1>
+          <p class="lead reveal" style="--d:.24s">
+          Este portfólio tem como objetivo apresentar meu desenvolvimento e aprendizado na 
+          utilização da Inteligência Artificial (IA), explorando suas possibilidades como ferramenta 
+          de criação e inovação. Além disso, busca destacar a importância da leitura para o desenvolvimento 
+          pessoal, a ampliação do conhecimento e o estímulo à criatividade.
+          </p>
+          <div class="hero-actions reveal" style="--d:.32s">
+            <a href="#video" class="btn btn-primary">
+              Saiba Mais
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
+            <a href="#introducao" class="btn btn-ghost">Quem sou eu</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" style="--d:.2s">
+          <div class="photo-wrap">
+            <div class="photo-frame" data-initials="JN" data-missing-label="imagens/perfil.jpg">
+              <img src="arquivos/perfil.jpeg" alt="Foto de perfil de Julia Neves" width="800" height="1000">
+            </div>
+            <span class="ring" aria-hidden="true"></span>
+            <div class="float-card" aria-hidden="true">
+              <span class="dot"></span> Aprendendo todos os dias
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#introducao" class="scroll-hint" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ============ 2. INTRODUÇÃO ============ -->
+    <section class="section section-tint" id="introducao" aria-labelledby="intro-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2 id="intro-title">Qual a importância da Leitura?</h2>
+        </header>
+
+        <div class="intro-grid">
+          <div class="intro-text reveal">
+            <p>
+              A leitura vai muito além das palavras: ela nos ajuda a adquirir conhecimento, desenvolver a criatividade, 
+              melhorar a comunicação e compreender diferentes ideias e realidades. Está presente não apenas nos livros, 
+              mas também em notícias, mensagens e conteúdos digitais.
+            </p>
+            <p>
+              Na sociedade, a leitura contribui para a educação, o trabalho e a participação consciente. Com a tecnologia, 
+              surgiram novos formatos, como e-books e audiolivros, mas também desafios como distrações e excesso de informações.
+            </p>
+            <p>
+              Criar o hábito de ler pode começar com pequenos momentos do dia e com assuntos que despertem interesse. Afinal, 
+              ler não transforma apenas o que sabemos, mas também a forma como enxergamos o mundo.
+            </p>
+          </div>
+
+          <div class="intro-cards">
+            <div class="reveal" style="--d:.1s">
+              <article class="card tilt">
+                <h3>Aprendizados  </h3>
+                <ul class="tags">
+                  <li>Inteligência Artificial</li><li>Criatividade</li><li>Produção de conteúdo</li>
+                </ul>
+              </article>
+            </div>
+            <div class="reveal" style="--d:.2s">
+              <article class="card tilt">
+                <h3>Ferramentas digitais</h3>
+                <ul class="tags">
+                  <li>Claude</li><li>Gemini</li><li>ElevenLabs</li><li>GoogleFlow</li>
+                </ul>
+              </article>
+            </div>
+            <div class="reveal" style="--d:.3s">
+              <article class="card tilt">
+                <h3>Inspirações</h3>
+                <ul class="tags">
+                  <li>Leitura</li><li>Tecnologia</li><li>Histórias</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. VÍDEO ============ -->
+    <section class="section" id="video" aria-labelledby="video-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2 id="video-title">Vídeo</h2>
+          <p class="section-sub">Vídeo criado com o auxílio da inteligência artificial, com o objetivo de explorar e aprender mais sobre o uso da IA na criação de vídeos. 
+        </header>
+
+        <div class="reveal" style="--d:.1s">
+          <figure class="media-frame">
+            <video controls preload="metadata" playsinline>
+              <!-- ▼▼ INSIRA AQUI O ARQUIVO DE VÍDEO (coloque o arquivo na pasta "video/") ▼▼ -->
+              <source src="arquivos/video.mp4" type="video/mp4">
+              <!-- ▲▲ ----------------------------------------------------------------- ▲▲ -->
+              Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <figcaption>A cena apresenta uma mulher lendo em um parque, transmitindo calma, tranquilidade e felicidade. </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. ÁUDIO ============ -->
+    <section class="section section-tint" id="audio" aria-labelledby="audio-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2 id="audio-title">Áudio</h2>
+          <p class="section-sub">Áudio criado com o auxílio da inteligência artificial, com o objetivo de aprender mais sobre o uso da IA na geração de áudios. </p>
+        </header>
+
+        <div class="reveal" style="--d:.1s">
+          <div class="audio-card" data-playing-scope>
+            <div class="audio-icon" aria-hidden="true">
+              <span class="pulse"></span>
+              <svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
+            </div>
+            <div class="audio-body">
+              <h3>O hábito de ler</h3>
+              <p>Áudio criado com IA para incentivar o hábito da leitura e despertar o interesse pelos livros.</p>
+              <div class="eq eq-small" data-bars="28" aria-hidden="true"></div>
+              <audio controls preload="metadata">
+                <!-- ▼▼ INSIRA AQUI O ARQUIVO DE ÁUDIO (pasta "audio/") ▼▼ -->
+                <source src="arquivos/audio.mp3" type="audio/mpeg">
+                <!-- ▲▲ ----------------------------------------------- ▲▲ -->
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. IMAGEM ============ -->
+    <section class="section" id="imagem" aria-labelledby="img-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2 id="img-title">Imagem em destaque</h2>
+        </header>
+
+        <div class="feature reveal" style="--d:.1s">
+          <figure class="feature-img" data-missing-label="imagem.jpg">
+            <!-- TROQUE AQUI: imagem de destaque -->
+            <img src="arquivos/imagem.jpg" alt="Descrição da imagem" loading="lazy">
+            <figcaption>
+              <strong>Livro aberto em uma pequena biblioteca</strong>
+              <span>A imagem representa um ambiente de leitura tranquilo e acolhedor, destacando o livro como fonte de conhecimento e aprendizado</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. INFOGRÁFICO ============ -->
+    <section class="section section-tint" id="infografico" aria-labelledby="info-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="section-num">05</span>
+          <h2 id="info-title">Infográfico</h2>
+          <p class="section-sub">Toque na imagem para ampliar e ver os detalhes. <!-- TROQUE AQUI --></p>
+        </header>
+
+        <div class="reveal" style="--d:.1s">
+          <div class="info-frame">
+            <button class="info-open" type="button" id="infoOpen" aria-label="Ampliar infográfico">
+              <span class="info-img" data-missing-label="infografico.jpg">
+                <!-- TROQUE AQUI: infográfico -->
+                <img src="arquivos/infografico.jpg" alt="Infográfico" loading="lazy">
+              </span>
+              <span class="info-badge">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg>
+                Ampliar
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. ANIMAÇÃO ============ -->
+    <section class="section" id="animacao" aria-labelledby="anim-title">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <span class="section-num">06</span>
+          <h2 id="anim-title">Animação</h2>
+          <p class="section-sub"></p>
+        </header>
+
+        <div class="reveal" style="--d:.1s">
+          <figure class="media-frame media-frame-alt">
+            <video controls preload="metadata" playsinline loop>
+              <!-- ▼▼ INSIRA AQUI O ARQUIVO DE ANIMAÇÃO (pasta "animacao/") ▼▼ -->
+              <source src="arquivos/animacao.mp4" type="video/mp4">
+              <!-- ▲▲ ------------------------------------------------------- ▲▲ -->
+              Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <figcaption>Animação criada para acompanhar o áudio sobre a importância da leitura sincronizados com a narração, tornando o conteúdo mais envolvente e agradável.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. MÚSICA ============ -->
+    <section class="section music" id="musica" aria-labelledby="music-title">
+      <span class="music-glow" aria-hidden="true"></span>
+      <div class="container narrow">
+        <header class="section-head section-head-center reveal">
+          <span class="section-num">07</span>
+          <h2 id="music-title">Música</h2>
+          <p class="section-sub">Uma produção sonora para fechar com sensibilidade. <!-- TROQUE AQUI --></p>
+        </header>
+
+        <div class="reveal" style="--d:.1s">
+          <div class="music-stage" data-playing-scope>
+            <div class="vinyl" aria-hidden="true">
+              <span class="vinyl-label">JN</span>
+            </div>
+
+            <div class="music-info">
+              <p class="music-kicker">Faixa em destaque</p>
+              <h3>O Poder da Leitura</h3>
+              <p class="music-artist">Julia Neves</p>
+
+              <div class="eq" data-bars="44" aria-hidden="true"></div>
+
+              <audio controls preload="metadata">
+                <!-- ▼▼ INSIRA AQUI O ARQUIVO DE MÚSICA (pasta "musica/") ▼▼ -->
+                <source src="arquivos/musica.mp3" type="audio/mpeg">
+                <!-- ▲▲ ------------------------------------------------- ▲▲ -->
+                Seu navegador não suporta a reprodução de áudio.
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 9. RODAPÉ ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand"><span class="brand-mark">J</span><span class="brand-name">Julia Neves</span></a>
+        <!-- TROQUE AQUI: frase do rodapé -->
+        <p>Aprender, crescer e fazer bem-feito: um passo de cada vez.</p>
+      </div>
+
+      <ul class="socials" aria-label="Redes sociais">
+        <!-- TROQUE AQUI: substitua cada "#" pelo link da sua rede -->
+        <li><a href="#" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg></a></li>
+        <li><a href="#" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li>
+        <li><a href="#" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a></li>
+        <li><a href="#" aria-label="YouTube" title="YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><path d="M9.75 15.02 15.5 11.75 9.75 8.48z"/></svg></a></li>
+        <li><a href="#" aria-label="Outra rede" title="Outra rede" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></li>
+      </ul>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Julia Neves. Todos os direitos reservados.</p>
+      <a href="#inicio" class="to-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- Janela de ampliação do infográfico -->
+  <dialog class="lightbox" id="lightbox" aria-label="Infográfico ampliado">
+    <button class="lightbox-close" type="button" id="lightboxClose" aria-label="Fechar">×</button>
+    <div class="lightbox-scroll" id="lightboxScroll">
+      <img id="lightboxImg" src="arquivos/infografico.jpg" alt="Infográfico ampliado">
+    </div>
+    <p class="lightbox-hint">Clique na imagem para alternar o zoom</p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
